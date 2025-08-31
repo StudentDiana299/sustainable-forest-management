@@ -1,0 +1,13 @@
+def calculate_carbon_sequestration(area_hectares, sequestration_rate=2.5):
+    """
+    Estimate carbon sequestration in a forest.
+    
+    Parameters:
+    - area_hectares (float): Size of forest area in hectares
+    - sequestration_rate (float): Tons of CO2 absorbed per hectare per year (default 2.5)
+
+    Returns:
+    - float: Total tons of CO2 absorbed per year
+    """
+    return area_hectares * sequestration_rate
+
